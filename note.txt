@@ -1,0 +1,12 @@
+33:19
+go:generate go run github.com/99designs/gqlgen -v
+
+A. add schema graphql
+B. add new file run.sh
+- add script export port, run
+- running sh run.sh
+- auto generate struct in models_gen.go after generate (berdasarkan schema.graphql)
+
+C. add User:
+   model: dexp.User
+   jika nambah model baru
